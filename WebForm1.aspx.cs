@@ -13,5 +13,23 @@ namespace demo_website
         {
 
         }
+
+        protected void TextBoxName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Buttonsubmit_Click(object sender, EventArgs e)
+        {
+            string name = TextBoxName.Text.Trim();
+            if (!string.IsNullOrEmpty(name))
+            {
+                LabelMessage.Text = $"Welcome, {name}!";
+            }
+            else
+            {
+                LabelMessage.Text = "Please enter your name.";
+            }
+        }
     }
 }

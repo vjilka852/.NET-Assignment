@@ -67,15 +67,51 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Add.xml" />
+    <Content Include="Aedvertizement.aspx" />
+    <Content Include="Assignment.aspx" />
+    <Content Include="Componetnt.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Pictures\Lms.jpg" />
+    <Content Include="Pictures\loginimage.png" />
+    <Content Include="Pictures\pexels-jonaskakaroto-736230.jpg" />
+    <Content Include="TempratureCalculatore.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aedvertizement.aspx.cs">
+      <DependentUpon>Aedvertizement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aedvertizement.aspx.designer.cs">
+      <DependentUpon>Aedvertizement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment.aspx.cs">
+      <DependentUpon>Assignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment.aspx.designer.cs">
+      <DependentUpon>Assignment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Componetnt.aspx.cs">
+      <DependentUpon>Componetnt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Componetnt.aspx.designer.cs">
+      <DependentUpon>Componetnt.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TempratureCalculatore.aspx.cs">
+      <DependentUpon>TempratureCalculatore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TempratureCalculatore.aspx.designer.cs">
+      <DependentUpon>TempratureCalculatore.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -85,7 +121,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libman.json" />
     <None Include="packages.config" />
+    <Content Include="Pictures\profile image.webp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

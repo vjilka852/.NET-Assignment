@@ -9,7 +9,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>Welcome page</h1>
+            <asp:Label ID="Label1" runat="server" Text="Enter your name:"></asp:Label>
+            <asp:TextBox ID="TextBoxName" runat="server" OnTextChanged="TextBoxName_TextChanged"></asp:TextBox>
+             <br />
+            <asp:Button ID="Buttonsubmit" runat="server" Text="submit" OnClick ="Buttonsubmit_Click" />
+            <br /><br />
+            <asp:Label ID="LabelMessage" runat="server" Text=""></asp:Label>
+             
+            <br />
+            
+
         </div>
     </form>
 </body>
 </html>
+

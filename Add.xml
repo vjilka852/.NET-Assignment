@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>\Pictures\Lms.jpg</ImageUrl>
+		<Keyword>technology,c,c#</Keyword>
+		<NavigateUrl>https://lms.rku.ac.in/login/canvas</NavigateUrl>
+		<AlternateText>LMS</AlternateText>
+		<Impression>3</Impression>
+	</Ad>
+	<Ad>
+		<ImageUrl>\Pictures\loginimage.png</ImageUrl>
+		<Keyword>technology,c,c#</Keyword>
+		<NavigateUrl>https://lms.rku.ac.in/login/canvas</NavigateUrl>
+		<AlternateText>LMS</AlternateText>
+		<Impression>3</Impression>
+	</Ad>
+</Advertisements>
